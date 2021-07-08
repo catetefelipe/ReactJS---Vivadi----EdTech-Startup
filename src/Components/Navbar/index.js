@@ -29,10 +29,13 @@ function Navbar() {
                         <li>
                             <Link to="/conteudos-gratuitos">Conteúdos Gratuitos</Link>
                         </li>
+                        <li>
+                            <Link to="/login">Login</Link>
+                        </li>
                     </ul>
-                    <Link to="/acesso">
-                        <button className="nav_button" type="button">
-                        Acessar Plataforma
+                    <Link to="/fale-conosco">
+                        <button type="button">
+                        Fale Conosco
                         </button>
                     </Link>
                 </div>

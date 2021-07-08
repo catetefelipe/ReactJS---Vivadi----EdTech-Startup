@@ -1,0 +1,71 @@
+button {
+    padding: .7rem 2rem;
+    border-radius: 1000px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff5050;
+}
+button:hover {
+    background-color: #ff3d3d;
+}
+
+
+
+
+
+
+
+
+
+
+h1, h2, h3, p {
+    color: #363434;
+}
+
+
+h1 {
+    font-size: 2.4rem;
+}
+
+
+h2 {
+    font-size: 2.2rem;
+}
+
+
+p {
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    } /* ---- laptops and desktops ---- */
+    
+    
+    @media (min-width: 762px) and (max-width: 1024px) {
+    
+    } /* ---- tablets ---- */
+    
+    
+    @media (min-width: 500px) and (max-width: 762px) {
+
+    } /* ---- mobile and small tablets ---- */

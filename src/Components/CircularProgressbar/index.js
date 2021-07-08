@@ -1,11 +1,12 @@
 import React from "react";
+import "./styles.css";
 import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
 import AnimatedProgressProvider from "./AnimatedProgressProvider";
 import { easeQuadInOut } from "d3-ease";
 
 
 
-function Circle() {
+function Circle(props) {
     return (
         <>
             <Example label="Fully controlled text animation using react-move">
@@ -23,18 +24,19 @@ function Circle() {
                           pathTransition: "none",
                           textColor: "#0f0",
                           pathColor: "#ff5050",
-                          trailColor: "#transparent"
+                          trailColor: "#transparent",
                         })}
                           >
-                            <img
-                              style={{ width: 40, marginTop: -5 }}
-                              src="https://i.imgur.com/b9NyUGm.png"
-                              alt="doge"
-                            />
-                            <div>
-                              <span>26,890</span>
-                              <br />
-                              <span>alunos</span>
+                            <div className="circularprogressbar_inside_circle">
+                              <div className="circularprogressbar_simbolo">
+                                <span>{props.simbolo}</span>
+                              </div>
+                              <div className="circularprogressbar_numero">
+                                <span>{props.numero}</span>
+                              </div>
+                              <div className="circularprogressbar_texto">
+                                <span>{props.texto}</span>
+                              </div>
                             </div>
                     </CircularProgressbarWithChildren>
 
@@ -47,22 +49,12 @@ function Circle() {
 }
 
 function Example(props) {
-    return (
-      <div style={{ marginBottom: 80 }}>
-        <hr style={{ border: "2px solid #ddd" }} />
-        <div style={{ marginTop: 30, display: "flex" }}>
-          <div style={{ width: "30%", paddingRight: 30 }}>{props.children}</div>
-          <div style={{ width: "70%" }}>
-            <h3 className="h5">{props.label}</h3>
-            <p>{props.description}</p>
-          </div>
-        </div>
+  return (
+      <div className="circularprogressbar_individual_circle">
+        {props.children}
       </div>
-    );
-  }
-
-
+  );
+}
 
 //export
 export default Circle
-

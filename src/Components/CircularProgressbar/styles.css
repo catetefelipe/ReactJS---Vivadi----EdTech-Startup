@@ -1,0 +1,78 @@
+.circularprogressbar_individual_circle {
+    width: 50%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+.circularprogressbar_inside_circle {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.circularprogressbar_simbolo span svg {
+    width: 40px;
+    height: 40px;
+    color: #ff5050;
+}
+
+
+
+
+
+
+
+
+
+
+.circularprogressbar_numero span {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+.circularprogressbar_texto span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (min-width: 1024px) {
+    .circularprogressbar_individual_circle {
+        padding-top: 0;
+    }
+} /* ---- laptops and desktops ---- */
