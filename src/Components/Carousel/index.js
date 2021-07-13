@@ -36,98 +36,98 @@ import piramide from "../../Images/Carousel/piramide.png";
 
 function Carousel() {
     return (
-        <div style={{ maxWidth: 1000, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <div style={{ maxWidth: 950, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
             <CarouselFunction
                 show={4}
                 infiniteLoop
             >
                 {/* são 29 imagens no total */}
                 <div>
-                    <img src={degiane} alt="placeholder" style={{width: '100%'}} />
+                    <img src={degiane} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={elvira} alt="placeholder" style={{width: '100%'}} />
+                    <img src={elvira} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={emilia} alt="placeholder" style={{width: '100%'}} />
+                    <img src={emilia} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={eshua} alt="placeholder" style={{width: '100%'}} />
+                    <img src={eshua} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={evolutiva} alt="placeholder" style={{width: '100%'}} />
+                    <img src={evolutiva} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={excelence} alt="placeholder" style={{width: '100%'}} />
+                    <img src={excelence} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={interativa} alt="placeholder" style={{width: '100%'}} />
+                    <img src={interativa} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={mirim} alt="placeholder" style={{width: '100%'}} />
+                    <img src={mirim} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={piaget} alt="placeholder" style={{width: '100%'}} />
+                    <img src={piaget} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={sistemico} alt="placeholder" style={{width: '100%'}} />
+                    <img src={sistemico} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={freeworld} alt="placeholder" style={{width: '100%'}} />
+                    <img src={freeworld} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={degraus} alt="placeholder" style={{width: '100%'}} />
+                    <img src={degraus} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={estacao} alt="placeholder" style={{width: '100%'}} />
+                    <img src={estacao} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={cooperativa} alt="placeholder" style={{width: '100%'}} />
+                    <img src={cooperativa} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={batista} alt="placeholder" style={{width: '100%'}} />
+                    <img src={batista} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={balao} alt="placeholder" style={{width: '100%'}} />
+                    <img src={balao} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={andre} alt="placeholder" style={{width: '100%'}} />
+                    <img src={andre} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={bonadei} alt="placeholder" style={{width: '100%'}} />
+                    <img src={bonadei} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={sementes} alt="placeholder" style={{width: '100%'}} />
+                    <img src={sementes} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={alegria} alt="placeholder" style={{width: '100%'}} />
+                    <img src={alegria} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={meufuturo} alt="placeholder" style={{width: '100%'}} />
+                    <img src={meufuturo} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={freinet} alt="placeholder" style={{width: '100%'}} />
+                    <img src={freinet} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={giramundo} alt="placeholder" style={{width: '100%'}} />
+                    <img src={giramundo} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={interamerica} alt="placeholder" style={{width: '100%'}} />
+                    <img src={interamerica} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={ponto} alt="placeholder" style={{width: '100%'}} />
+                    <img src={ponto} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={ceab} alt="placeholder" style={{width: '100%'}} />
+                    <img src={ceab} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={yara} alt="placeholder" style={{width: '100%'}} />
+                    <img src={yara} style={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={cejac} alt="placeholder" style={{width: '100%'}} />
+                    <img src={cejac} astyle={{width: '100%'}} />
                 </div>
                 <div>
-                    <img src={piramide} alt="placeholder" style={{width: '100%'}} />
+                    <img src={piramide} style={{width: '100%'}} />
                 </div>
             </CarouselFunction>
         </div>
