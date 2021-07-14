@@ -10,10 +10,9 @@
 
 
 html {
-  font-size: 62.5%; /* o font-size está configurado para 10px */
-}
+  font-size: 62.5%; /* {1º} agora, o font-size está configurado para 10px, ou seja, agora, 10px é igual a 1rem */
+}                   /* {2º} é bem mais fácil fazer o cálculo do font-size dessa forma */
 
 body {
-  font-size: 1.6rem;
-  background-color: #800080;
+  font-size: 1.6rem; /* {3º} agora o font-size padrão é 1.6rem */
 }

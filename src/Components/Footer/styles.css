@@ -81,4 +81,8 @@ footer {
         margin: 0 auto;
         justify-content: space-between;
     }
+
+    .footer_logo_address_div span {
+        font-size: 1.6rem;
+    }
 }
