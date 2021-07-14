@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./styles.css";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
 
@@ -100,9 +101,8 @@ const CarouselFunction = (props) => {
             <div className="carousel-wrapper">
             {
                 (isRepeating || currentIndex > 0) &&
-                <button onMouseOver={prev} className="left-arrow">
-                &lt;
-                </button>
+                /* BOTÃO DO LADO ESQUERDO */
+                <IoIosArrowBack onMouseOver={prev} className="schools_arrow" />
             }
                 <div
                     className="carousel-content-wrapper"
@@ -130,9 +130,8 @@ const CarouselFunction = (props) => {
                 </div>
                 {
                     (isRepeating || currentIndex < (length - show)) &&
-                    <button onMouseOver={next} className="right-arrow">
-                        &gt;
-                    </button>
+                    /* BOTÃO DO LADO DIREITO */
+                    <IoIosArrowForward onMouseOver={next} className="schools_arrow" />
                 }
             </div>
         </div>

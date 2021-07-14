@@ -1,5 +1,6 @@
 import React from "react";
 import CarouselFunction from "./CarouselFunction";
+import "./styles.css";
 
 // imagens dos logos das escolas
 import degiane from "../../Images/Carousel/degiane.png";
@@ -36,98 +37,98 @@ import piramide from "../../Images/Carousel/piramide.png";
 
 function Carousel() {
     return (
-        <div style={{ maxWidth: 950, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+        <div className="main_carousel_div" >
             <CarouselFunction
                 show={4}
                 infiniteLoop
             >
                 {/* são 29 imagens no total */}
-                <div>
-                    <img src={degiane} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={degiane} />
                 </div>
-                <div>
-                    <img src={elvira} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={elvira} />
                 </div>
-                <div>
-                    <img src={emilia} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={emilia} />
                 </div>
-                <div>
-                    <img src={eshua} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={eshua} />
                 </div>
-                <div>
-                    <img src={evolutiva} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={evolutiva} />
                 </div>
-                <div>
-                    <img src={excelence} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={excelence} />
                 </div>
-                <div>
-                    <img src={interativa} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={interativa} />
                 </div>
-                <div>
-                    <img src={mirim} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={mirim} />
                 </div>
-                <div>
-                    <img src={piaget} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={piaget} />
                 </div>
-                <div>
-                    <img src={sistemico} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={sistemico} />
                 </div>
-                <div>
-                    <img src={freeworld} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={freeworld} />
                 </div>
-                <div>
-                    <img src={degraus} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={degraus} />
                 </div>
-                <div>
-                    <img src={estacao} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={estacao} />
                 </div>
-                <div>
-                    <img src={cooperativa} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={cooperativa} />
                 </div>
-                <div>
-                    <img src={batista} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={batista} />
                 </div>
-                <div>
-                    <img src={balao} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={balao} />
                 </div>
-                <div>
-                    <img src={andre} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={andre} />
                 </div>
-                <div>
-                    <img src={bonadei} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={bonadei} />
                 </div>
-                <div>
-                    <img src={sementes} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={sementes} />
                 </div>
-                <div>
-                    <img src={alegria} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={alegria} />
                 </div>
-                <div>
-                    <img src={meufuturo} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={meufuturo} />
                 </div>
-                <div>
-                    <img src={freinet} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={freinet} />
                 </div>
-                <div>
-                    <img src={giramundo} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={giramundo} />
                 </div>
-                <div>
-                    <img src={interamerica} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={interamerica} />
                 </div>
-                <div>
-                    <img src={ponto} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={ponto} />
                 </div>
-                <div>
-                    <img src={ceab} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={ceab} />
                 </div>
-                <div>
-                    <img src={yara} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={yara} />
                 </div>
-                <div>
-                    <img src={cejac} astyle={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={cejac} />
                 </div>
-                <div>
-                    <img src={piramide} style={{width: '100%'}} />
+                <div className="school_logo_div">
+                    <img src={piramide} />
                 </div>
             </CarouselFunction>
         </div>
