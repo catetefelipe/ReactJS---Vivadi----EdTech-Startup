@@ -99,6 +99,13 @@
 
 
 
+@media (max-width: 1024px) {
+    .main_carousel_div {
+        display: none;
+    }
+}
+
+
 
 
 @media (min-width: 425px) {

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./styles.css";
+
+// BOTÕES DO LADO ESQUERDO E DIREITO DO CARROSSEL
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 

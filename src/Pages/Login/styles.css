@@ -1,0 +1,264 @@
+.login_section {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_main_div {
+    width: 100%;
+    padding: 16% 6% 6% 6%;
+}
+
+
+.login_logo_div {
+    text-align: center;
+}
+
+
+
+.login_main_div img {
+    width: 40%;
+    max-width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login_text_div {
+    text-align: center;
+    padding: 2rem 4rem 1rem 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+
+.form_div_elements {
+    margin-top: 1rem;
+}
+
+
+.form_div_elements input {
+    margin: .4rem 0 1rem 0;
+    padding-left: 1rem;
+    color: #ff5050;
+    box-shadow: 0 0 1px #ff5050;
+    outline: none;
+    background-color: #f4f5f7;
+}
+
+
+label {
+    display: inline-block;
+    width: 80%;
+    text-align: start;
+    color: #ff5050;
+}
+
+
+input {
+    width: 80%;
+    height: 4.8rem;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    border: none;
+}
+
+
+/* ---- button ---- */
+.login_submit {
+    margin: 4rem 0 2.4rem 0;
+    height: 3.8rem;
+    background-color: #ff5050;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1000px;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.login_submit:hover {
+    background-color: #ff3d3d;
+}
+
+
+/* ---- Esqueci minha senha ---- */
+form a {
+    text-decoration: none;
+    color: #ff5050;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== login_left_div ==================== */
+.login_left_div {
+    display: none; /* o display está como none, ou seja, essa div não aparecerá por padrão, já que o site foi construído com um mobile first design. Entretanto, eu ativei essa div para telas com mais que 1024px e a ativação está na Media Query */
+    width: 50%;
+    padding: 6rem 0 4rem 0;
+    color: #fff;
+    background-color: #ff5050;
+    text-align: center;
+}
+
+
+.login_left_div p {
+    color: #fff; 
+}
+
+
+.login_left_text_div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.login_left_image_div {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.login_left_image_div img {
+    width: 250px;
+}
+
+
+.login_submit {
+    height: 4.6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (min-width: 1024px) {
+    .login_main_div {
+        width: 50%;
+        padding: 6rem 0 4rem 0;
+    }
+
+    input {
+        width: 45%;
+    }
+
+    label {
+        display: inline-block;
+        width: 45%;
+        text-align: start;
+    }
+
+
+
+
+/* ==================== login_left_div ==================== */
+    .login_left_div {
+        display: block; /* ativação da div */
+    }
+    } /* ---- laptops and desktops ---- */

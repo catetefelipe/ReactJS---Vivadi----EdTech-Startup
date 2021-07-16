@@ -1,8 +1,10 @@
 import React from "react";
-import CarouselFunction from "./CarouselFunction";
 import "./styles.css";
 
-// imagens dos logos das escolas
+// FUNÇÃO DOS BOTÕES
+import CarouselFunction from "./CarouselFunction";
+
+// IMAGENS DOS LOGOS DAS ESCOLAS
 import degiane from "../../Images/Carousel/degiane.png";
 import elvira from "../../Images/Carousel/elvira.png";
 import emilia from "../../Images/Carousel/emilia.png";

@@ -12,6 +12,16 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
 .footer_icons_div {
     text-align: center;
 }
@@ -23,11 +33,21 @@ footer {
 
 
 .footer_icons_div a {
-    font-size: 38px;
+    font-size: 34px;
     color: rgb(145, 145, 145);
     margin-right: 1rem;
     margin-left: 1rem;
 }
+.footer_icons_div a:hover {
+    color: #ff3d3d;
+    transition: .4s;
+}
+
+
+
+
+
+
 
 
 
@@ -71,6 +91,15 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+/* ---- MEDIA QUERIES ---- */
 @media (min-width: 1024px) {
     footer {
         padding: 4% 2% 4% 2%;
